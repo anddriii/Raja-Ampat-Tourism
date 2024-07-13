@@ -134,12 +134,14 @@ nav a {
     align-items: center;
     max-width: 1200px;
     margin: 50px auto;
+    
 }
 
 .videos-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 footer {
