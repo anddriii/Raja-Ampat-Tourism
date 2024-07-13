@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: rgba(3, 121, 142, 0.657);
+    padding: 15px 0;
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.jumbotron {
+    background-image: url("images/raja_ampat_shutterstock_592859528-Copy-2.webp");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    margin-top: -80px;
+    position: relative;
+    height: 50vh;
+}
+
+.jumbotron .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.main-carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel{
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.carousel-item {
+    height: 500px
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    align-items: center;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: 380px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin: 0 15px 0 15px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.card-description {
+    color: #666;
+}
+
+.videos{
+    align-items: center;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.videos-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color:rgba(3, 121, 142, 0.657);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
